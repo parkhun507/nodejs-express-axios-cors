@@ -1,0 +1,148 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\paradise\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.3.0
+2 info using node@v22.15.0
+3 silly config load:file:C:\Users\paradise\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\paradise\.npmrc
+5 silly config load:file:C:\Users\paradise\AppData\Roaming\npm\etc\npmrc
+6 verbose title npm install express axios cors
+7 verbose argv "install" "express" "axios" "cors"
+8 verbose logfile logs-max:10 dir:C:\Users\paradise\OneDrive\Desktop\day2\nodejs-express-axios-cors\npm-cache\_logs\2025-05-13T04_10_19_757Z-
+9 verbose logfile C:\Users\paradise\OneDrive\Desktop\day2\nodejs-express-axios-cors\npm-cache\_logs\2025-05-13T04_10_19_757Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly idealTree buildDeps
+13 silly fetch manifest axios@^1.9.0
+14 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+15 http cache https://registry.npmjs.org/axios 55ms (cache hit)
+16 silly packumentCache full:https://registry.npmjs.org/axios set size:660188 disposed:false
+17 silly fetch manifest cors@^2.8.5
+18 silly packumentCache full:https://registry.npmjs.org/cors cache-miss
+19 http cache https://registry.npmjs.org/cors 13ms (cache hit)
+20 silly packumentCache full:https://registry.npmjs.org/cors set size:73833 disposed:false
+21 silly fetch manifest express@^5.1.0
+22 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+23 http cache https://registry.npmjs.org/express 14ms (cache hit)
+24 silly packumentCache full:https://registry.npmjs.org/express set size:786938 disposed:false
+25 silly placeDep ROOT axios@1.9.0 REPLACE for:  want: ^1.9.0
+26 silly placeDep ROOT cors@2.8.5 REPLACE for:  want: ^2.8.5
+27 silly placeDep ROOT express@5.1.0 REPLACE for:  want: ^5.1.0
+28 silly reify moves {}
+29 silly audit bulk request {
+29 silly audit   '@discordjs/builders': [ '1.11.2' ],
+29 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.1' ],
+29 silly audit   '@discordjs/formatters': [ '0.6.1' ],
+29 silly audit   '@discordjs/rest': [ '2.5.0' ],
+29 silly audit   '@discordjs/util': [ '1.1.1' ],
+29 silly audit   '@discordjs/ws': [ '1.2.2' ],
+29 silly audit   '@sapphire/async-queue': [ '1.5.5' ],
+29 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+29 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+29 silly audit   '@types/node': [ '22.15.17' ],
+29 silly audit   '@types/ws': [ '8.18.1' ],
+29 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.6' ],
+29 silly audit   accepts: [ '2.0.0' ],
+29 silly audit   asynckit: [ '0.4.0' ],
+29 silly audit   'body-parser': [ '2.2.0' ],
+29 silly audit   bytes: [ '3.1.2' ],
+29 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+29 silly audit   'call-bound': [ '1.0.4' ],
+29 silly audit   'combined-stream': [ '1.0.8' ],
+29 silly audit   'content-disposition': [ '1.0.0' ],
+29 silly audit   'content-type': [ '1.0.5' ],
+29 silly audit   cookie: [ '1.0.2', '0.7.2' ],
+29 silly audit   'cookie-signature': [ '1.2.2' ],
+29 silly audit   debug: [ '4.4.0' ],
+29 silly audit   'delayed-stream': [ '1.0.0' ],
+29 silly audit   depd: [ '2.0.0' ],
+29 silly audit   'discord-api-types': [ '0.38.4' ],
+29 silly audit   'discord.js': [ '14.19.3' ],
+29 silly audit   dom: [ '0.0.3' ],
+29 silly audit   'dunder-proto': [ '1.0.1' ],
+29 silly audit   'ee-first': [ '1.1.1' ],
+29 silly audit   encodeurl: [ '2.0.0' ],
+29 silly audit   'es-define-property': [ '1.0.1' ],
+29 silly audit   'es-errors': [ '1.3.0' ],
+29 silly audit   'es-object-atoms': [ '1.1.1' ],
+29 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+29 silly audit   'escape-html': [ '1.0.3' ],
+29 silly audit   etag: [ '1.8.1' ],
+29 silly audit   'fast-deep-equal': [ '3.1.3' ],
+29 silly audit   finalhandler: [ '2.1.0' ],
+29 silly audit   'follow-redirects': [ '1.15.9' ],
+29 silly audit   'form-data': [ '4.0.2' ],
+29 silly audit   'mime-db': [ '1.52.0', '1.54.0' ],
+29 silly audit   'mime-types': [ '2.1.35', '3.0.1' ],
+29 silly audit   forwarded: [ '0.2.0' ],
+29 silly audit   fresh: [ '2.0.0' ],
+29 silly audit   'function-bind': [ '1.1.2' ],
+29 silly audit   'get-intrinsic': [ '1.3.0' ],
+29 silly audit   'get-proto': [ '1.0.1' ],
+29 silly audit   gopd: [ '1.2.0' ],
+29 silly audit   'has-symbols': [ '1.1.0' ],
+29 silly audit   'has-tostringtag': [ '1.0.2' ],
+29 silly audit   hasown: [ '2.0.2' ],
+29 silly audit   'http-errors': [ '2.0.0' ],
+29 silly audit   'iconv-lite': [ '0.6.3' ],
+29 silly audit   inherits: [ '2.0.4' ],
+29 silly audit   'ipaddr.js': [ '1.9.1' ],
+29 silly audit   'is-promise': [ '4.0.0' ],
+29 silly audit   lodash: [ '4.17.21' ],
+29 silly audit   'lodash.snakecase': [ '4.1.1' ],
+29 silly audit   'magic-bytes.js': [ '1.12.1' ],
+29 silly audit   'math-intrinsics': [ '1.1.0' ],
+29 silly audit   'media-typer': [ '1.1.0' ],
+29 silly audit   'merge-descriptors': [ '2.0.0' ],
+29 silly audit   ms: [ '2.1.3' ],
+29 silly audit   negotiator: [ '1.0.0' ],
+29 silly audit   'object-assign': [ '4.1.1' ],
+29 silly audit   'object-inspect': [ '1.13.4' ],
+29 silly audit   'on-finished': [ '2.4.1' ],
+29 silly audit   once: [ '1.4.0' ],
+29 silly audit   parseurl: [ '1.3.3' ],
+29 silly audit   'path-to-regexp': [ '8.2.0' ],
+29 silly audit   'proxy-addr': [ '2.0.7' ],
+29 silly audit   'proxy-from-env': [ '1.1.0' ],
+29 silly audit   qs: [ '6.14.0' ],
+29 silly audit   'range-parser': [ '1.2.1' ],
+29 silly audit   'raw-body': [ '3.0.0' ],
+29 silly audit   react: [ '19.1.0' ],
+29 silly audit   'react-dom': [ '19.1.0' ],
+29 silly audit   'react-router': [ '7.5.3' ],
+29 silly audit   'react-router-dom': [ '7.5.3' ],
+29 silly audit   router: [ '2.2.0' ],
+29 silly audit   'safe-buffer': [ '5.2.1' ],
+29 silly audit   'safer-buffer': [ '2.1.2' ],
+29 silly audit   scheduler: [ '0.26.0' ],
+29 silly audit   send: [ '1.2.0' ],
+29 silly audit   'serve-static': [ '2.2.0' ],
+29 silly audit   'set-cookie-parser': [ '2.7.1' ],
+29 silly audit   setprototypeof: [ '1.2.0' ],
+29 silly audit   'side-channel': [ '1.1.0' ],
+29 silly audit   'side-channel-list': [ '1.0.0' ],
+29 silly audit   'side-channel-map': [ '1.0.1' ],
+29 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+29 silly audit   statuses: [ '2.0.1' ],
+29 silly audit   tailwindcss: [ '4.1.4' ],
+29 silly audit   toidentifier: [ '1.0.1' ],
+29 silly audit   'ts-mixer': [ '6.0.4' ],
+29 silly audit   tslib: [ '2.8.1' ],
+29 silly audit   'turbo-stream': [ '2.4.0' ],
+29 silly audit   'type-is': [ '2.0.1' ],
+29 silly audit   undici: [ '6.21.1' ],
+29 silly audit   'undici-types': [ '6.21.0' ],
+29 silly audit   unpipe: [ '1.0.0' ],
+29 silly audit   vary: [ '1.1.2' ],
+29 silly audit   wrappy: [ '1.0.2' ],
+29 silly audit   ws: [ '8.18.2' ],
+29 silly audit   axios: [ '1.9.0' ],
+29 silly audit   cors: [ '2.8.5' ],
+29 silly audit   express: [ '5.1.0' ]
+29 silly audit }
+30 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 392ms
+31 silly audit report {}
+32 verbose cwd C:\Users\paradise\OneDrive\Desktop\day2\nodejs-express-axios-cors
+33 verbose os Windows_NT 10.0.22631
+34 verbose node v22.15.0
+35 verbose npm  v11.3.0
+36 verbose exit 0
+37 info ok
